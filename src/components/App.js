@@ -23,9 +23,6 @@ function App() {
   const visibleTasks = tasks.filter (
     (task) => category === "All" || task.category === category 
   );
-
-
-
   return (
     <div className="App">
       <h2>My tasks</h2>
